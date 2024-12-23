@@ -1,0 +1,68 @@
+{"itemsDisponibles": [
+    {
+      "nombre": "Centinela Invisible",
+      "tipo": "ward",
+      "id": 4,
+      "precio": 0,
+      "habilidad": "Provee visión en el mapa durante un tiempo limitado.",
+      "url": "./assets/items/centinela-invisible.png"
+    },
+    {
+      "nombre": "Lente de Oráculo",
+      "tipo": "ward",
+      "id": 5,
+      "precio": 0,
+      "habilidad": "Revela los wards enemigos y otras unidades invisibles.",
+      "url": "./assets/items/lente-de-oraculo.png"
+    },
+    {
+      "nombre": "Alteración de Visión Lejana",
+      "tipo": "ward",
+      "id": 6,
+      "precio": 0,
+      "habilidad": "Ofrece visión en una amplia área alrededor del área seleccionada.",
+      "url": "./assets/items/alteracion-de-vision-lejana.png"
+    },
+    {
+      "nombre": "Escarcha Eterna",
+      "tipo": "normal",
+      "id": 1,
+      "precio": 3400,
+      "habilidad": "Aumenta el poder de habilidad y ofrece un bono de vida.",
+      "url": "./assets/items/escarcha-eterna.png",
+      "estadisticas": {
+        "dmg_AP": 80,
+        "aceleracion_habilidad": 20
+      },
+      "recursos": {
+        "vida": 250,
+        "mana": 600
+      }
+    },
+    {
+      "nombre": "Armadura Petrea",
+      "tipo": "normal",
+      "id": 2,
+      "precio": 3300,
+      "habilidad": "Aumenta la armadura y la resistencia mágica.",
+      "url": "./assets/items/armadura-petrea.png",
+      "estadisticas": {
+        "armadura": 60,
+        "resistencia_magica": 40
+      }
+    },
+    {
+      "nombre": "Fuerza del Viento",
+      "tipo": "normal",
+      "id": 3,
+      "precio": 2900,
+      "habilidad": "Mejora el daño de ataque y la velocidad de ataque.",
+      "url": "./assets/items/fuerza-del-viento.png",
+      "estadisticas": {
+        "dmg_AD": 55,
+        "velocidad_ataque": 20,
+        "golpe_critico": 20
+      }
+    }
+  ]
+}
